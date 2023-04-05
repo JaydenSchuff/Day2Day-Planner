@@ -1,12 +1,9 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+//shows current time in header
 $("#currentDay").text(dayjs().format('dddd MMMM D, YYYY'));
 
 
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
-      // Get nearby values of the description in JQuery
       var toDo = $(this).siblings(".description").val();
       var time = $(this).parent().attr("id");
 
@@ -16,6 +13,7 @@ $(document).ready(function () {
 
   function timeBlock() {
     var hour = dayjs().hour();
+
     //shows the current hour is working
     console.log(hour)
 
