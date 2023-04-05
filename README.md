@@ -8,6 +8,9 @@ I took starter code from https://github.com/coding-boot-camp/crispy-octo-meme an
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
+## Usage 
+https://jaydenschuff.github.io/Day2Day-Planner/
+
 ### Sources 
 https://github.com/coding-boot-camp/crispy-octo-meme 
 
